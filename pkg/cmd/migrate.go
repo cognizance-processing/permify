@@ -5,6 +5,7 @@ import (
 	"path/filepath"
 	"strconv"
 	"strings"
+	"fmt"
 
 	"github.com/gookit/color"
 	"github.com/hashicorp/go-multierror"
@@ -95,8 +96,15 @@ func migrateUp() func(cmd *cobra.Command, args []string) error {
 		case "postgres":
 			flags[databaseEngine] = "pgx"
 		}
-
-		db, err := goose.OpenDBWithDriver(flags[databaseEngine], flags[databaseURI])
+		// cog
+		socketDir, isSet := os.LookupEnv("DB_SOCKET_DIR")
+		if !isSet {
+			socketDir = "/cloudsql"
+		}
+		// assume only one %s
+		newUri := fmt.Sprintf(flags[databaseURI], socketDir)
+		fmt.Println(newUri)
+		db, err := goose.OpenDBWithDriver(flags[databaseEngine], newUri)
 		if err != nil {
 			color.Warn.Println("migration failed: Database Connection Error")
 			return err

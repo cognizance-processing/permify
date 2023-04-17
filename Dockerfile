@@ -35,14 +35,20 @@ RUN go build -v -o permify ./cmd/permify/
 # https://docs.docker.com/develop/develop-images/multistage-build/#use-multi-stage-builds
 FROM debian:buster-slim
 RUN set -x && apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y \
-    ca-certificates && \
+    ca-certificates &&  \
+    apt install dumb-init && \
     rm -rf /var/lib/apt/lists/*
-
+    
 # Copy the binary to the production image from the builder stage.
 COPY --from=builder /app/permify /app/permify
 
 # Run the web service on container startup.
+
+# or RUN apt install tini
+ENTRYPOINT ["dumb-init", "--"]
+# or ENTRYPOINT ["tini", "--"]
 CMD ["./app/permify/permify serve --database-engine postgres --database-uri postgres://postgres:postgres@%s/cog-analytics-backend:us-central1:permify/postgres"]
+
 
 # [END run_helloworld_dockerfile]
 # [END cloudrun_helloworld_dockerfile]

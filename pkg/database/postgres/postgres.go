@@ -3,8 +3,10 @@ package postgres
 import (
 	"context"
 	"database/sql"
-	"time"
+	"fmt"
 	"os"
+	"time"
+
 	"github.com/cenkalti/backoff/v4"
 
 	"github.com/Masterminds/squirrel"

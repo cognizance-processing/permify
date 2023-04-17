@@ -40,7 +40,7 @@ RUN set -x && apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -
     rm -rf /var/lib/apt/lists/*
     
 # Copy the binary to the production image from the builder stage.
-COPY --from=builder /app/* /app/*
+COPY --from=builder /app/ /app/
 
 # Run the web service on container startup.
 # migrate up --database-engine postgres --database-uri postgres://postgres:postgres@%s/cog-analytics-backend:us-central1:permify/postgres

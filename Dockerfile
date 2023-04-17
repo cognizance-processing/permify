@@ -43,10 +43,10 @@ RUN set -x && apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -
 COPY --from=builder /app/permify /app/permify
 
 # Run the web service on container startup.
-
+migrate up --database-engine postgres --database-uri postgres://postgres:postgres@%s/cog-analytics-backend:us-central1:permify/postgres
 # or RUN apt install tini
-ENTRYPOINT ["/app/permify", "serve", "--database-engine", "postgres", "--database-uri", "user=postgres password=postgres database=postgres host=%s/cog-analytics-backend:us-central1:permify"]
-
+# ENTRYPOINT ["/app/permify", "serve", "--database-engine", "postgres", "--database-uri", "user=postgres password=postgres database=postgres host=%s/cog-analytics-backend:us-central1:permify"]
+ENTRYPOINT ["/app/permify", "migrate", "up", "--database-engine", "postgres", "--database-uri", "postgres://postgres:postgres@%s/cog-analytics-backend:us-central1:permify/postgres"]
 # or ENTRYPOINT ["tini", "--"]
 # CMD ["./permify serve --database-engine postgres --database-uri postgres://postgres:postgres@%s/cog-analytics-backend:us-central1:permify/postgres"]
 

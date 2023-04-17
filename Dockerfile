@@ -47,7 +47,7 @@ COPY --from=builder /app/permify /app/permify
 # or RUN apt install tini
 ENTRYPOINT ["dumb-init", "--"]
 # or ENTRYPOINT ["tini", "--"]
-CMD ["./app/permify serve --database-engine postgres --database-uri postgres://postgres:postgres@%s/cog-analytics-backend:us-central1:permify/postgres"]
+CMD ["./permify serve --database-engine postgres --database-uri postgres://postgres:postgres@%s/cog-analytics-backend:us-central1:permify/postgres"]
 
 
 # [END run_helloworld_dockerfile]

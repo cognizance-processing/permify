@@ -7,11 +7,11 @@ import (
 
 	otelCodes "go.opentelemetry.io/otel/codes"
 
-	"github.com/Permify/permify/internal/repositories"
-	"github.com/Permify/permify/pkg/dsl/ast"
-	"github.com/Permify/permify/pkg/dsl/compiler"
-	"github.com/Permify/permify/pkg/dsl/parser"
-	base "github.com/Permify/permify/pkg/pb/base/v1"
+	"permify/internal/repositories"
+	"permify/pkg/dsl/ast"
+	"permify/pkg/dsl/compiler"
+	"permify/pkg/dsl/parser"
+	base "permify/pkg/pb/base/v1"
 )
 
 // SchemaService -

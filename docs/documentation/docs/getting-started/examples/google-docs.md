@@ -293,7 +293,7 @@ assertions:
 
 ### Using Schema Validator in Local 
 
-After cloning [Permify](https://github.com/Permify/permify), open up a new file and copy the **schema yaml file** content inside. Then, build and run Permify instance using the command `make run`.
+After cloning [Permify](https://permify), open up a new file and copy the **schema yaml file** content inside. Then, build and run Permify instance using the command `make run`.
 
 ![Running Permify](https://user-images.githubusercontent.com/34595361/232312254-5a6558fa-f085-4aac-9c83-e62447daef7d.png)
 

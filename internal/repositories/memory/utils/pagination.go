@@ -3,7 +3,7 @@ package utils
 import (
 	"encoding/base64"
 
-	"github.com/Permify/permify/pkg/database"
+	"permify/pkg/database"
 )
 
 type (

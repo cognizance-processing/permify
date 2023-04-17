@@ -13,12 +13,12 @@ import (
 	"github.com/gookit/color"
 	"github.com/spf13/cobra"
 
-	"github.com/Permify/permify/pkg/cmd/flags"
-	"github.com/Permify/permify/pkg/development"
-	"github.com/Permify/permify/pkg/development/validation"
-	base "github.com/Permify/permify/pkg/pb/base/v1"
-	"github.com/Permify/permify/pkg/token"
-	"github.com/Permify/permify/pkg/tuple"
+	"permify/pkg/cmd/flags"
+	"permify/pkg/development"
+	"permify/pkg/development/validation"
+	base "permify/pkg/pb/base/v1"
+	"permify/pkg/token"
+	"permify/pkg/tuple"
 )
 
 // NewValidateCommand - creates a new validate command

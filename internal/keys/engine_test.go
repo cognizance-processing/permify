@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/Permify/permify/pkg/cache/ristretto"
-	base "github.com/Permify/permify/pkg/pb/base/v1"
-	"github.com/Permify/permify/pkg/tuple"
+	"permify/pkg/cache/ristretto"
+	base "permify/pkg/pb/base/v1"
+	"permify/pkg/tuple"
 )
 
 func TestEngineKeys_SetCheckKey(t *testing.T) {

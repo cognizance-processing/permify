@@ -1,4 +1,4 @@
-module github.com/Permify/permify
+module permify
 
 go 1.20
 

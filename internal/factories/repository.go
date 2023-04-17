@@ -1,13 +1,13 @@
 package factories
 
 import (
-	"github.com/Permify/permify/internal/repositories"
-	MMRepository "github.com/Permify/permify/internal/repositories/memory"
-	PQRepository "github.com/Permify/permify/internal/repositories/postgres"
-	"github.com/Permify/permify/pkg/database"
-	MMDatabase "github.com/Permify/permify/pkg/database/memory"
-	PQDatabase "github.com/Permify/permify/pkg/database/postgres"
-	"github.com/Permify/permify/pkg/logger"
+	"permify/internal/repositories"
+	MMRepository "permify/internal/repositories/memory"
+	PQRepository "permify/internal/repositories/postgres"
+	"permify/pkg/database"
+	MMDatabase "permify/pkg/database/memory"
+	PQDatabase "permify/pkg/database/postgres"
+	"permify/pkg/logger"
 )
 
 // RelationshipReaderFactory is a factory function that returns a relationship reader instance according to the

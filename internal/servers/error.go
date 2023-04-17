@@ -3,7 +3,7 @@ package servers
 import (
 	"google.golang.org/grpc/codes"
 
-	base "github.com/Permify/permify/pkg/pb/base/v1"
+	base "permify/pkg/pb/base/v1"
 )
 
 // GetStatus - Get error status

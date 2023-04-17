@@ -8,9 +8,9 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/Permify/permify/internal/repositories/mocks"
-	"github.com/Permify/permify/internal/schema"
-	base "github.com/Permify/permify/pkg/pb/base/v1"
+	"permify/internal/repositories/mocks"
+	"permify/internal/schema"
+	base "permify/pkg/pb/base/v1"
 )
 
 var _ = Describe("lookup-schema-engine", func() {

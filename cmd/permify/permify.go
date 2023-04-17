@@ -3,8 +3,8 @@ package main
 import (
 	"os"
 
-	"github.com/Permify/permify/pkg/cmd"
-	"github.com/Permify/permify/pkg/cmd/flags"
+	"permify/pkg/cmd"
+	"permify/pkg/cmd/flags"
 )
 
 func main() {

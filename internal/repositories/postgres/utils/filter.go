@@ -3,7 +3,7 @@ package utils
 import (
 	"github.com/Masterminds/squirrel"
 
-	base "github.com/Permify/permify/pkg/pb/base/v1"
+	base "permify/pkg/pb/base/v1"
 )
 
 // FilterQueryForSelectBuilder -

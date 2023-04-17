@@ -4,9 +4,9 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/Permify/permify/pkg/dsl/compiler"
-	"github.com/Permify/permify/pkg/dsl/parser"
-	base "github.com/Permify/permify/pkg/pb/base/v1"
+	"permify/pkg/dsl/compiler"
+	"permify/pkg/dsl/parser"
+	base "permify/pkg/pb/base/v1"
 )
 
 // NewSchemaFromStringDefinitions creates a new `SchemaDefinition` from a list of string definitions.

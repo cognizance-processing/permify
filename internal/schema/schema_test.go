@@ -6,7 +6,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	base "github.com/Permify/permify/pkg/pb/base/v1"
+	base "permify/pkg/pb/base/v1"
 )
 
 // TestSchema -

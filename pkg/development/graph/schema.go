@@ -7,9 +7,9 @@ import (
 
 	"github.com/rs/xid"
 
-	"github.com/Permify/permify/internal/schema"
-	base "github.com/Permify/permify/pkg/pb/base/v1"
-	"github.com/Permify/permify/pkg/tuple"
+	"permify/internal/schema"
+	base "permify/pkg/pb/base/v1"
+	"permify/pkg/tuple"
 )
 
 // SchemaToGraph - Convert schema to graph

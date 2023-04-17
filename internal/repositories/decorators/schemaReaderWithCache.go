@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/Permify/permify/internal/repositories"
-	"github.com/Permify/permify/pkg/cache"
-	base "github.com/Permify/permify/pkg/pb/base/v1"
+	"permify/internal/repositories"
+	"permify/pkg/cache"
+	base "permify/pkg/pb/base/v1"
 )
 
 // SchemaReaderWithCache - Add cache behaviour to schema reader

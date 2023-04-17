@@ -3,16 +3,17 @@ package postgres
 import (
 	"context"
 	"database/sql"
-	"github.com/Permify/permify/internal/config"
-	"github.com/Permify/permify/internal/repositories"
-	"github.com/Permify/permify/internal/repositories/postgres/utils"
-	db "github.com/Permify/permify/pkg/database/postgres"
-	"github.com/Permify/permify/pkg/logger"
-	base "github.com/Permify/permify/pkg/pb/base/v1"
+	"permify/internal/config"
+	"permify/internal/repositories"
+	"permify/internal/repositories/postgres/utils"
+	db "permify/pkg/database/postgres"
+	"permify/pkg/logger"
+	base "permify/pkg/pb/base/v1"
+	"time"
+
 	"go.opentelemetry.io/otel/codes"
 	"golang.org/x/sync/errgroup"
 	"golang.org/x/sync/semaphore"
-	"time"
 )
 
 // GarbageCollector - Structure for GarbageCollector

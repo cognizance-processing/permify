@@ -3,7 +3,7 @@ package database
 import (
 	"testing"
 
-	base "github.com/Permify/permify/pkg/pb/base/v1"
+	base "permify/pkg/pb/base/v1"
 )
 
 func TestTupleIterator(t *testing.T) {

@@ -6,12 +6,12 @@ import (
 	"github.com/hashicorp/go-memdb"
 	"github.com/pkg/errors"
 
-	"github.com/Permify/permify/internal/repositories"
-	"github.com/Permify/permify/internal/repositories/memory/utils"
-	"github.com/Permify/permify/pkg/database"
-	db "github.com/Permify/permify/pkg/database/memory"
-	"github.com/Permify/permify/pkg/logger"
-	base "github.com/Permify/permify/pkg/pb/base/v1"
+	"permify/internal/repositories"
+	"permify/internal/repositories/memory/utils"
+	"permify/pkg/database"
+	db "permify/pkg/database/memory"
+	"permify/pkg/logger"
+	base "permify/pkg/pb/base/v1"
 )
 
 // TenantReader - Structure for Tenant Reader

@@ -6,7 +6,7 @@ import (
 	"golang.org/x/sync/errgroup"
 	"golang.org/x/sync/semaphore"
 
-	base "github.com/Permify/permify/pkg/pb/base/v1"
+	base "permify/pkg/pb/base/v1"
 )
 
 // BulkCheckerRequest is a struct for a permission check request and the channel to send the result.

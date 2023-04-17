@@ -5,9 +5,9 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/grpc/status"
 
-	"github.com/Permify/permify/internal/services"
-	"github.com/Permify/permify/pkg/logger"
-	v1 "github.com/Permify/permify/pkg/pb/base/v1"
+	"permify/internal/services"
+	"permify/pkg/logger"
+	v1 "permify/pkg/pb/base/v1"
 )
 
 // PermissionServer - Structure for Permission Server

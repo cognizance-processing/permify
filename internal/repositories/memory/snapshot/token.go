@@ -5,7 +5,7 @@ import (
 	"encoding/binary"
 	"time"
 
-	"github.com/Permify/permify/pkg/token"
+	"permify/pkg/token"
 )
 
 type (

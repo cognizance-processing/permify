@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Permify/permify/pkg/dsl/token"
-	base "github.com/Permify/permify/pkg/pb/base/v1"
-	"github.com/Permify/permify/pkg/tuple"
+	"permify/pkg/dsl/token"
+	base "permify/pkg/pb/base/v1"
+	"permify/pkg/tuple"
 )
 
 // Validate - validates the schema to ensure that it meets certain requirements.

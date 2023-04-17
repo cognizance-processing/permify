@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Permify/permify/pkg/dsl/ast"
-	"github.com/Permify/permify/pkg/dsl/token"
-	"github.com/Permify/permify/pkg/dsl/utils"
-	base "github.com/Permify/permify/pkg/pb/base/v1"
+	"permify/pkg/dsl/ast"
+	"permify/pkg/dsl/token"
+	"permify/pkg/dsl/utils"
+	base "permify/pkg/pb/base/v1"
 )
 
 // Compiler compiles an AST schema into a list of entity definitions.

@@ -3,9 +3,9 @@ package repositories
 import (
 	"context"
 
-	"github.com/Permify/permify/pkg/database"
-	base "github.com/Permify/permify/pkg/pb/base/v1"
-	"github.com/Permify/permify/pkg/token"
+	"permify/pkg/database"
+	base "permify/pkg/pb/base/v1"
+	"permify/pkg/token"
 )
 
 // RelationshipReader -

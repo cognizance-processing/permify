@@ -7,7 +7,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/Permify/permify/pkg/dsl/token"
+	"permify/pkg/dsl/token"
 )
 
 // TestLexer -

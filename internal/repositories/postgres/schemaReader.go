@@ -8,11 +8,11 @@ import (
 	"github.com/Masterminds/squirrel"
 	"go.opentelemetry.io/otel/codes"
 
-	"github.com/Permify/permify/internal/repositories"
-	"github.com/Permify/permify/internal/schema"
-	db "github.com/Permify/permify/pkg/database/postgres"
-	"github.com/Permify/permify/pkg/logger"
-	base "github.com/Permify/permify/pkg/pb/base/v1"
+	"permify/internal/repositories"
+	"permify/internal/schema"
+	db "permify/pkg/database/postgres"
+	"permify/pkg/logger"
+	base "permify/pkg/pb/base/v1"
 )
 
 // SchemaReader - Structure for SchemaReader

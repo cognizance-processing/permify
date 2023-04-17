@@ -6,8 +6,8 @@ import (
 	grpcAuth "github.com/grpc-ecosystem/go-grpc-middleware/auth"
 	"github.com/pkg/errors"
 
-	"github.com/Permify/permify/internal/authn"
-	"github.com/Permify/permify/internal/config"
+	"permify/internal/authn"
+	"permify/internal/config"
 )
 
 // KeyAuthenticator - Interface for key authenticator

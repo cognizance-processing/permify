@@ -3,9 +3,9 @@ package services
 import (
 	"context"
 
-	"github.com/Permify/permify/internal/repositories"
-	"github.com/Permify/permify/pkg/database"
-	base "github.com/Permify/permify/pkg/pb/base/v1"
+	"permify/internal/repositories"
+	"permify/pkg/database"
+	base "permify/pkg/pb/base/v1"
 )
 
 // TenancyService -

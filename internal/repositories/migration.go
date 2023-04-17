@@ -7,9 +7,9 @@ import (
 
 	"github.com/pressly/goose/v3"
 
-	"github.com/Permify/permify/internal/config"
-	"github.com/Permify/permify/pkg/database"
-	"github.com/Permify/permify/pkg/logger"
+	"permify/internal/config"
+	"permify/pkg/database"
+	"permify/pkg/logger"
 )
 
 const (

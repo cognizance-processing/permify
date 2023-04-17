@@ -6,9 +6,9 @@ import (
 
 	"github.com/cespare/xxhash/v2"
 
-	"github.com/Permify/permify/pkg/cache"
-	base "github.com/Permify/permify/pkg/pb/base/v1"
-	"github.com/Permify/permify/pkg/tuple"
+	"permify/pkg/cache"
+	base "permify/pkg/pb/base/v1"
+	"permify/pkg/tuple"
 )
 
 // EngineKeys is a struct that holds an instance of a cache.Cache for managing engine keys.

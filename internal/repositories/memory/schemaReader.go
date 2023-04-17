@@ -6,11 +6,11 @@ import (
 
 	"github.com/hashicorp/go-memdb"
 
-	"github.com/Permify/permify/internal/repositories"
-	"github.com/Permify/permify/internal/schema"
-	db "github.com/Permify/permify/pkg/database/memory"
-	"github.com/Permify/permify/pkg/logger"
-	base "github.com/Permify/permify/pkg/pb/base/v1"
+	"permify/internal/repositories"
+	"permify/internal/schema"
+	db "permify/pkg/database/memory"
+	"permify/pkg/logger"
+	base "permify/pkg/pb/base/v1"
 )
 
 // SchemaReader - Structure for Schema Reader

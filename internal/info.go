@@ -18,7 +18,7 @@ Fine-grained Authorization System %s
 	OneLiner = "Open-source authorization service inspired by Google Zanzibar"
 
 	Docs   = "https://docs.permify.co"
-	GitHub = "https://github.com/Permify/permify"
+	GitHub = "https://permify"
 	Blog   = "https://permify.co/blog"
 
 	Discord  = "https://discord.gg/MJbUjwskdH"

@@ -7,13 +7,13 @@ import (
 
 	otelCodes "go.opentelemetry.io/otel/codes"
 
-	"github.com/Permify/permify/internal/keys"
-	"github.com/Permify/permify/internal/repositories"
-	"github.com/Permify/permify/internal/schema"
-	"github.com/Permify/permify/pkg/database"
-	base "github.com/Permify/permify/pkg/pb/base/v1"
-	"github.com/Permify/permify/pkg/token"
-	"github.com/Permify/permify/pkg/tuple"
+	"permify/internal/keys"
+	"permify/internal/repositories"
+	"permify/internal/schema"
+	"permify/pkg/database"
+	base "permify/pkg/pb/base/v1"
+	"permify/pkg/token"
+	"permify/pkg/tuple"
 )
 
 // CheckEngine is a core component responsible for performing permission checks.

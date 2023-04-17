@@ -3,7 +3,7 @@ package schema
 import (
 	"strings"
 
-	base "github.com/Permify/permify/pkg/pb/base/v1"
+	base "permify/pkg/pb/base/v1"
 )
 
 // Schema is a function that returns a pointer to a SchemaDefinition structure. It takes a variable number of pointers to

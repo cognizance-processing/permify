@@ -3,8 +3,8 @@ package schema
 import (
 	"errors"
 
-	"github.com/Permify/permify/pkg/dsl/utils"
-	base "github.com/Permify/permify/pkg/pb/base/v1"
+	"permify/pkg/dsl/utils"
+	base "permify/pkg/pb/base/v1"
 )
 
 // LinkedSchemaGraph represents a graph of linked schema objects. The schema object contains definitions for entities,

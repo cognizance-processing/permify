@@ -9,14 +9,14 @@ import (
 
 	"github.com/hashicorp/go-memdb"
 
-	"github.com/Permify/permify/internal/repositories"
-	"github.com/Permify/permify/internal/repositories/memory/snapshot"
-	"github.com/Permify/permify/internal/repositories/memory/utils"
-	"github.com/Permify/permify/pkg/database"
-	db "github.com/Permify/permify/pkg/database/memory"
-	"github.com/Permify/permify/pkg/logger"
-	base "github.com/Permify/permify/pkg/pb/base/v1"
-	"github.com/Permify/permify/pkg/token"
+	"permify/internal/repositories"
+	"permify/internal/repositories/memory/snapshot"
+	"permify/internal/repositories/memory/utils"
+	"permify/pkg/database"
+	db "permify/pkg/database/memory"
+	"permify/pkg/logger"
+	base "permify/pkg/pb/base/v1"
+	"permify/pkg/token"
 )
 
 // RelationshipReader - Structure for Relationship Reader

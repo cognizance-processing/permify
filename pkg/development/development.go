@@ -3,13 +3,13 @@ package development
 import (
 	"fmt"
 
-	"github.com/Permify/permify/internal/config"
-	"github.com/Permify/permify/internal/engines"
-	"github.com/Permify/permify/internal/factories"
-	"github.com/Permify/permify/internal/keys"
-	"github.com/Permify/permify/internal/services"
-	"github.com/Permify/permify/pkg/database"
-	"github.com/Permify/permify/pkg/logger"
+	"permify/internal/config"
+	"permify/internal/engines"
+	"permify/internal/factories"
+	"permify/internal/keys"
+	"permify/internal/services"
+	"permify/pkg/database"
+	"permify/pkg/logger"
 )
 
 // Container - Structure for container instance

@@ -11,8 +11,8 @@ import (
 	"github.com/zitadel/oidc/pkg/client/rp"
 	"github.com/zitadel/oidc/pkg/oidc"
 
-	"github.com/Permify/permify/internal/authn"
-	"github.com/Permify/permify/internal/config"
+	"permify/internal/authn"
+	"permify/internal/config"
 )
 
 // OidcAuthenticator - Interface for oidc authenticator

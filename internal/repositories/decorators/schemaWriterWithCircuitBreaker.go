@@ -6,8 +6,8 @@ import (
 
 	"github.com/afex/hystrix-go/hystrix"
 
-	"github.com/Permify/permify/internal/repositories"
-	base "github.com/Permify/permify/pkg/pb/base/v1"
+	"permify/internal/repositories"
+	base "permify/pkg/pb/base/v1"
 )
 
 // SchemaWriterWithCircuitBreaker - Add circuit breaker behaviour to schema writer

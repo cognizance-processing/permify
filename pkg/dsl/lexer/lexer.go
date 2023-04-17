@@ -1,7 +1,7 @@
 package lexer
 
 import (
-	"github.com/Permify/permify/pkg/dsl/token"
+	"permify/pkg/dsl/token"
 )
 
 // Lexer - represents a lexical analyzer for the input source code.

@@ -11,9 +11,9 @@ import (
 	otelCodes "go.opentelemetry.io/otel/codes"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	db "github.com/Permify/permify/pkg/database/postgres"
-	"github.com/Permify/permify/pkg/logger"
-	base "github.com/Permify/permify/pkg/pb/base/v1"
+	db "permify/pkg/database/postgres"
+	"permify/pkg/logger"
+	base "permify/pkg/pb/base/v1"
 )
 
 // TenantWriter - Structure for Tenant Writer

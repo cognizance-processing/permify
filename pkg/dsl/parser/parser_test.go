@@ -6,7 +6,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/Permify/permify/pkg/dsl/ast"
+	"permify/pkg/dsl/ast"
 )
 
 // TestParser -

@@ -3,12 +3,13 @@ package utils
 import (
 	"database/sql"
 	"fmt"
-	"github.com/pkg/errors"
 	"time"
+
+	"github.com/pkg/errors"
 
 	"github.com/Masterminds/squirrel"
 
-	"github.com/Permify/permify/pkg/logger"
+	"permify/pkg/logger"
 )
 
 // SnapshotQuery -

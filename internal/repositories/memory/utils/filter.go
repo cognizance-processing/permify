@@ -4,8 +4,8 @@ import (
 	"github.com/hashicorp/go-memdb"
 	"golang.org/x/exp/slices"
 
-	"github.com/Permify/permify/internal/repositories"
-	base "github.com/Permify/permify/pkg/pb/base/v1"
+	"permify/internal/repositories"
+	base "permify/pkg/pb/base/v1"
 )
 
 // FilterQuery - Filter relation tuples according to given filter

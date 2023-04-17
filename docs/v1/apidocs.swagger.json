@@ -6,12 +6,12 @@
     "version": "v0.3.8",
     "contact": {
       "name": "API Support",
-      "url": "https://github.com/Permify/permify/issues",
+      "url": "https://permify/issues",
       "email": "hello@permify.co"
     },
     "license": {
       "name": "GNU Affero General Public License v3.0",
-      "url": "https://github.com/Permify/permify/blob/master/LICENSE"
+      "url": "https://permify/blob/master/LICENSE"
     }
   },
   "tags": [

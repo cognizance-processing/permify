@@ -3,11 +3,11 @@ package factories
 import (
 	"fmt"
 
-	"github.com/Permify/permify/internal/config"
-	"github.com/Permify/permify/internal/repositories/memory/migrations"
-	"github.com/Permify/permify/pkg/database"
-	IMDatabase "github.com/Permify/permify/pkg/database/memory"
-	PQDatabase "github.com/Permify/permify/pkg/database/postgres"
+	"permify/internal/config"
+	"permify/internal/repositories/memory/migrations"
+	"permify/pkg/database"
+	IMDatabase "permify/pkg/database/memory"
+	PQDatabase "permify/pkg/database/postgres"
 )
 
 // DatabaseFactory is a factory function that creates a database instance according to the given configuration.

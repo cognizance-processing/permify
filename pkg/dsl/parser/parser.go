@@ -4,10 +4,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/Permify/permify/pkg/dsl/ast"
-	"github.com/Permify/permify/pkg/dsl/lexer"
-	"github.com/Permify/permify/pkg/dsl/token"
-	"github.com/Permify/permify/pkg/dsl/utils"
+	"permify/pkg/dsl/ast"
+	"permify/pkg/dsl/lexer"
+	"permify/pkg/dsl/token"
+	"permify/pkg/dsl/utils"
 )
 
 const (

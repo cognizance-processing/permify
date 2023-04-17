@@ -7,7 +7,7 @@ import (
 
 	"golang.org/x/exp/slices"
 
-	base "github.com/Permify/permify/pkg/pb/base/v1"
+	base "permify/pkg/pb/base/v1"
 )
 
 const (

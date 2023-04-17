@@ -3,8 +3,8 @@ package services
 import (
 	"context"
 
-	"github.com/Permify/permify/internal/engines"
-	base "github.com/Permify/permify/pkg/pb/base/v1"
+	"permify/internal/engines"
+	base "permify/pkg/pb/base/v1"
 )
 
 // PermissionService -

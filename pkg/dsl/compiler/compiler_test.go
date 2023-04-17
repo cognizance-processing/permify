@@ -7,8 +7,8 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/Permify/permify/pkg/dsl/parser"
-	base "github.com/Permify/permify/pkg/pb/base/v1"
+	"permify/pkg/dsl/parser"
+	base "permify/pkg/pb/base/v1"
 )
 
 // TestCompiler -

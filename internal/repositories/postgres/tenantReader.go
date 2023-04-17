@@ -8,12 +8,12 @@ import (
 	"github.com/Masterminds/squirrel"
 	"go.opentelemetry.io/otel/codes"
 
-	"github.com/Permify/permify/internal/repositories"
-	"github.com/Permify/permify/internal/repositories/postgres/utils"
-	"github.com/Permify/permify/pkg/database"
-	db "github.com/Permify/permify/pkg/database/postgres"
-	"github.com/Permify/permify/pkg/logger"
-	base "github.com/Permify/permify/pkg/pb/base/v1"
+	"permify/internal/repositories"
+	"permify/internal/repositories/postgres/utils"
+	"permify/pkg/database"
+	db "permify/pkg/database/postgres"
+	"permify/pkg/logger"
+	base "permify/pkg/pb/base/v1"
 )
 
 type TenantReader struct {

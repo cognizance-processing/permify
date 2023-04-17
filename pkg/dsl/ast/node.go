@@ -3,7 +3,7 @@ package ast
 import (
 	"strings"
 
-	"github.com/Permify/permify/pkg/dsl/token"
+	"permify/pkg/dsl/token"
 )
 
 type (

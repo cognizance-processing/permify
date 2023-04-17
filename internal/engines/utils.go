@@ -6,8 +6,8 @@ import (
 
 	"go.opentelemetry.io/otel"
 
-	base "github.com/Permify/permify/pkg/pb/base/v1"
-	"github.com/Permify/permify/pkg/tuple"
+	base "permify/pkg/pb/base/v1"
+	"permify/pkg/tuple"
 )
 
 var tracer = otel.Tracer("engines")

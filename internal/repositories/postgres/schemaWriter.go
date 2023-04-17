@@ -7,10 +7,10 @@ import (
 
 	otelCodes "go.opentelemetry.io/otel/codes"
 
-	"github.com/Permify/permify/internal/repositories"
-	db "github.com/Permify/permify/pkg/database/postgres"
-	"github.com/Permify/permify/pkg/logger"
-	base "github.com/Permify/permify/pkg/pb/base/v1"
+	"permify/internal/repositories"
+	db "permify/pkg/database/postgres"
+	"permify/pkg/logger"
+	base "permify/pkg/pb/base/v1"
 )
 
 // SchemaWriter - Structure for SchemaWriter

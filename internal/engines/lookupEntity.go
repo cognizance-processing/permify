@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	base "github.com/Permify/permify/pkg/pb/base/v1"
+	base "permify/pkg/pb/base/v1"
 )
 
 // LookupEntityEngine is a struct that performs permission checks on a set of entities

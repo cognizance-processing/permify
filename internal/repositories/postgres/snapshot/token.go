@@ -6,8 +6,8 @@ import (
 
 	"github.com/jackc/pgtype"
 
-	"github.com/Permify/permify/internal/repositories/postgres/types"
-	"github.com/Permify/permify/pkg/token"
+	"permify/internal/repositories/postgres/types"
+	"permify/pkg/token"
 )
 
 type (

@@ -10,15 +10,15 @@ import (
 
 	"go.opentelemetry.io/otel/codes"
 
-	"github.com/Permify/permify/internal/repositories"
-	"github.com/Permify/permify/internal/repositories/postgres/snapshot"
-	"github.com/Permify/permify/internal/repositories/postgres/types"
-	"github.com/Permify/permify/internal/repositories/postgres/utils"
-	"github.com/Permify/permify/pkg/database"
-	db "github.com/Permify/permify/pkg/database/postgres"
-	"github.com/Permify/permify/pkg/logger"
-	base "github.com/Permify/permify/pkg/pb/base/v1"
-	"github.com/Permify/permify/pkg/token"
+	"permify/internal/repositories"
+	"permify/internal/repositories/postgres/snapshot"
+	"permify/internal/repositories/postgres/types"
+	"permify/internal/repositories/postgres/utils"
+	"permify/pkg/database"
+	db "permify/pkg/database/postgres"
+	"permify/pkg/logger"
+	base "permify/pkg/pb/base/v1"
+	"permify/pkg/token"
 )
 
 // RelationshipReader is a structure that holds information and dependencies

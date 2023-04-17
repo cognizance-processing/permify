@@ -25,13 +25,13 @@ import (
 
 	health "google.golang.org/grpc/health/grpc_health_v1"
 
-	"github.com/Permify/permify/internal/authn/oidc"
-	"github.com/Permify/permify/internal/authn/preshared"
-	"github.com/Permify/permify/internal/config"
-	"github.com/Permify/permify/internal/servers/middleware"
-	"github.com/Permify/permify/internal/services"
-	"github.com/Permify/permify/pkg/logger"
-	grpcV1 "github.com/Permify/permify/pkg/pb/base/v1"
+	"permify/internal/authn/oidc"
+	"permify/internal/authn/preshared"
+	"permify/internal/config"
+	"permify/internal/servers/middleware"
+	"permify/internal/services"
+	"permify/pkg/logger"
+	grpcV1 "permify/pkg/pb/base/v1"
 )
 
 var tracer = otel.Tracer("servers")

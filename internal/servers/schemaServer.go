@@ -6,9 +6,9 @@ import (
 	otelCodes "go.opentelemetry.io/otel/codes"
 	"golang.org/x/net/context"
 
-	"github.com/Permify/permify/internal/services"
-	"github.com/Permify/permify/pkg/logger"
-	v1 "github.com/Permify/permify/pkg/pb/base/v1"
+	"permify/internal/services"
+	"permify/pkg/logger"
+	v1 "permify/pkg/pb/base/v1"
 )
 
 // SchemaServer - Structure for Schema Server

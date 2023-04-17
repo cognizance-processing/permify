@@ -8,8 +8,8 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/Permify/permify/internal/repositories/postgres/types"
-	"github.com/Permify/permify/pkg/token"
+	"permify/internal/repositories/postgres/types"
+	"permify/pkg/token"
 )
 
 // TestToken -

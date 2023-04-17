@@ -10,7 +10,7 @@ import (
 	"github.com/grpc-ecosystem/go-grpc-middleware/util/metautils"
 	. "github.com/onsi/gomega"
 
-	"github.com/Permify/permify/internal/config"
+	"permify/internal/config"
 )
 
 func Test_AuthenticateWithSigningMethods(t *testing.T) {

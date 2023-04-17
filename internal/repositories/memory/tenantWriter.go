@@ -5,10 +5,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/Permify/permify/internal/repositories"
-	db "github.com/Permify/permify/pkg/database/memory"
-	"github.com/Permify/permify/pkg/logger"
-	base "github.com/Permify/permify/pkg/pb/base/v1"
+	"permify/internal/repositories"
+	db "permify/pkg/database/memory"
+	"permify/pkg/logger"
+	base "permify/pkg/pb/base/v1"
 )
 
 // TenantWriter - Structure for Tenant Writer

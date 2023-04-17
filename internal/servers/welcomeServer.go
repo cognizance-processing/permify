@@ -5,8 +5,8 @@ import (
 
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/Permify/permify/internal"
-	v1 "github.com/Permify/permify/pkg/pb/base/v1"
+	"permify/internal"
+	v1 "permify/pkg/pb/base/v1"
 )
 
 // WelcomeServer - Structure for Welcome Server

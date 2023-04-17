@@ -10,10 +10,10 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/Permify/permify/pkg/database"
-	"github.com/Permify/permify/pkg/database/postgres"
-	"github.com/Permify/permify/pkg/logger"
-	basev1 "github.com/Permify/permify/pkg/pb/base/v1"
+	"permify/pkg/database"
+	"permify/pkg/database/postgres"
+	"permify/pkg/logger"
+	basev1 "permify/pkg/pb/base/v1"
 )
 
 var _ = Describe("RelationshipWriter", func() {

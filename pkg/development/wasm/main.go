@@ -10,10 +10,10 @@ import (
 
 	"google.golang.org/protobuf/encoding/protojson"
 
-	"github.com/Permify/permify/pkg/database"
-	"github.com/Permify/permify/pkg/development"
-	"github.com/Permify/permify/pkg/development/graph"
-	v1 "github.com/Permify/permify/pkg/pb/base/v1"
+	"permify/pkg/database"
+	"permify/pkg/development"
+	"permify/pkg/development/graph"
+	v1 "permify/pkg/pb/base/v1"
 )
 
 // Requests for Permify Playground

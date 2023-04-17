@@ -14,9 +14,9 @@ import (
 	"go.opentelemetry.io/otel/metric/global"
 	"go.opentelemetry.io/otel/sdk/metric"
 	"go.opentelemetry.io/otel/sdk/resource"
-	"go.opentelemetry.io/otel/semconv/v1.10.0"
+	semconv "go.opentelemetry.io/otel/semconv/v1.10.0"
 
-	"github.com/Permify/permify/internal"
+	"permify/internal"
 )
 
 // NewNoopMeter - Creates new noop meter

@@ -3,7 +3,7 @@ package migrations
 import (
 	"github.com/hashicorp/go-memdb"
 
-	"github.com/Permify/permify/internal/repositories/memory"
+	"permify/internal/repositories/memory"
 )
 
 // Schema - Database schema for memory db

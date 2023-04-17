@@ -9,8 +9,8 @@ import (
 
 	otelCodes "go.opentelemetry.io/otel/codes"
 
-	"github.com/Permify/permify/internal/repositories"
-	base "github.com/Permify/permify/pkg/pb/base/v1"
+	"permify/internal/repositories"
+	base "permify/pkg/pb/base/v1"
 )
 
 // LookupSchemaEngine represents an engine used for looking up schemas. It is used to find a schema from a given

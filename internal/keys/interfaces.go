@@ -1,7 +1,7 @@
 package keys
 
 import (
-	base "github.com/Permify/permify/pkg/pb/base/v1"
+	base "permify/pkg/pb/base/v1"
 )
 
 // EngineKeyManager is an interface that defines the methods required for managing

@@ -11,13 +11,13 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/Permify/permify/internal/repositories/postgres/snapshot"
-	"github.com/Permify/permify/internal/repositories/postgres/types"
-	"github.com/Permify/permify/pkg/database"
-	"github.com/Permify/permify/pkg/database/postgres"
-	"github.com/Permify/permify/pkg/logger"
-	base "github.com/Permify/permify/pkg/pb/base/v1"
-	"github.com/Permify/permify/pkg/tuple"
+	"permify/internal/repositories/postgres/snapshot"
+	"permify/internal/repositories/postgres/types"
+	"permify/pkg/database"
+	"permify/pkg/database/postgres"
+	"permify/pkg/logger"
+	base "permify/pkg/pb/base/v1"
+	"permify/pkg/tuple"
 )
 
 var _ = Describe("RelationshipReader", func() {

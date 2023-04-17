@@ -6,10 +6,10 @@ import (
 
 	"github.com/afex/hystrix-go/hystrix"
 
-	"github.com/Permify/permify/internal/repositories"
-	"github.com/Permify/permify/pkg/database"
-	base "github.com/Permify/permify/pkg/pb/base/v1"
-	"github.com/Permify/permify/pkg/token"
+	"permify/internal/repositories"
+	"permify/pkg/database"
+	base "permify/pkg/pb/base/v1"
+	"permify/pkg/token"
 )
 
 // RelationshipReaderWithCircuitBreaker - Add circuit breaker behaviour to relationship reader

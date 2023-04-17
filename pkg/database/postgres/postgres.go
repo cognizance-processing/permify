@@ -4,7 +4,7 @@ import (
 	"context"
 	"database/sql"
 	"time"
-
+	"os"
 	"github.com/cenkalti/backoff/v4"
 
 	"github.com/Masterminds/squirrel"
@@ -37,7 +37,16 @@ func New(uri string, opts ...Option) (*Postgres, error) {
 
 	pg.Builder = squirrel.StatementBuilder.PlaceholderFormat(squirrel.Dollar)
 
-	db, err := sql.Open("pgx", uri)
+	// cog
+	newUri := uri
+	socketDir, isSet := os.LookupEnv("DB_SOCKET_DIR")
+	if !isSet {
+		socketDir = "/cloudsql"
+		// assume only one %s
+		newUri = fmt.Sprintf(uri, socketDir)
+	}
+
+	db, err := sql.Open("pgx", newUri)
 	if err != nil {
 		return nil, err
 	}

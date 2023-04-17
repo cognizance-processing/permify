@@ -45,7 +45,7 @@ COPY --from=builder /app/permify /app/permify
 # Run the web service on container startup.
 
 # or RUN apt install tini
-ENTRYPOINT ["/app/permify", "serve", "--database-engine", "postgres", "--database-uri", "postgres://postgres:postgre@/postgre?host=%s/cog-analytics-backend"]
+ENTRYPOINT ["/app/permify", "serve", "--database-engine", "postgres", "--database-uri", "postgresql:///postgre?host=/cloudsql/cog-analytics-backend:us-central1:permify&user=postgres&password=postgre"]
 
 # or ENTRYPOINT ["tini", "--"]
 # CMD ["./permify serve --database-engine postgres --database-uri postgres://postgres:postgres@%s/cog-analytics-backend:us-central1:permify/postgres"]

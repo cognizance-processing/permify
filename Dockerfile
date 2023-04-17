@@ -5,6 +5,7 @@ RUN apk update && apk add --no-cache git
 COPY . .
 RUN CGO_ENABLED=0 go build -v ./cmd/permify/
 
+
 # Step 2: Final
 FROM cgr.dev/chainguard/static:latest
 COPY --from=ghcr.io/grpc-ecosystem/grpc-health-probe:v0.4.12 /ko-app/grpc-health-probe /usr/local/bin/grpc_health_probe

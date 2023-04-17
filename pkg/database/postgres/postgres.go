@@ -40,15 +40,15 @@ func New(uri string, opts ...Option) (*Postgres, error) {
 	pg.Builder = squirrel.StatementBuilder.PlaceholderFormat(squirrel.Dollar)
 
 	// cog
-	newUri := uri
 	socketDir, isSet := os.LookupEnv("DB_SOCKET_DIR")
 	if !isSet {
 		socketDir = "/cloudsql"
-		// assume only one %s
-		newUri = fmt.Sprintf(uri, socketDir)
 	}
-
+	// assume only one %s
+	newUri := fmt.Sprintf(uri, socketDir)
+	fmt.Println(newUri)
 	db, err := sql.Open("pgx", newUri)
+	
 	if err != nil {
 		return nil, err
 	}
